@@ -34,8 +34,8 @@ class CountdownTimer {
   
     refs.days.innerHTML = days;
     refs.hours.innerHTML = hours;
-    refs.mins.innerHTML = `${mins}`;
-    refs.secs.innerHTML = `${secs}`;
+    refs.mins.innerHTML = mins;
+    refs.secs.innerHTML = secs;
 
     return { days, hours, mins, secs }
   };
@@ -47,5 +47,5 @@ class CountdownTimer {
 
 new CountdownTimer({
   selector: '#timer-1',
-  targetDate: new Date('Aug 10, 2021, 12:55:00'),
+  targetDate: new Date('Aug 10, 2021, 13:03:00'),
 });
