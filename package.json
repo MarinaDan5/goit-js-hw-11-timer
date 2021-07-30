@@ -1,0 +1,20 @@
+{
+  "name": "goit-js-hw-11-timer",
+  "version": "1.0.0",
+  "description": "Домашнее задание 11 Таймер",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarinaDan5/goit-js-hw-11-timer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarinaDan5/goit-js-hw-11-timer/issues"
+  },
+  "homepage": "https://github.com/MarinaDan5/goit-js-hw-11-timer#readme"
+}
